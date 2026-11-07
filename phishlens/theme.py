@@ -19,7 +19,7 @@ CSS = """
 /* ---------- Streamlit chrome ---------- */
 html,body,[data-testid="stAppViewContainer"],.stApp{background:var(--canvas);color:var(--body);font-family:var(--sans);}
 [data-testid="stHeader"]{background:transparent;}
-#MainMenu,footer,[data-testid="stToolbar"],[data-testid="stDecoration"]{visibility:hidden;height:0;}
+#MainMenu,footer,[data-testid="stDecoration"]{visibility:hidden;height:0;}
 .block-container{max-width:1120px;padding:2.4rem 2.4rem 5rem;}
 h1,h2,h3{font-family:var(--serif);color:var(--ink);font-weight:400;letter-spacing:-.01em;}
 p,li,label,span,div{font-family:var(--sans);}
@@ -208,4 +208,16 @@ CSS += """
 [data-testid="stFormSubmitButton"] > button,[data-testid="stFormSubmitButton"]{width:100%;}
 [data-testid="stSelectbox"] [data-baseweb="select"] > div{background:var(--paper);border-color:var(--rule);border-radius:8px;}
 [data-testid="stRadio"] [role="radiogroup"] p{font-size:.92rem;}
+"""
+CSS += """
+[data-testid="stSidebar"] {
+    min-width: 248px;
+}
+
+[data-testid="stSidebarCollapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
 """

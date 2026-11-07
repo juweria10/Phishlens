@@ -1,0 +1,4 @@
+Setting,Model,Accuracy,Precision,Recall,F1-score
+All features minus URLSimilarityIndex,Logistic Regression,0.9975,0.9974,0.99611,0.99676
+All features minus URLSimilarityIndex,Decision Tree,0.98801,0.97946,0.98962,0.98452
+All features minus URLSimilarityIndex,Random Forest,0.9985,0.9987,0.99741,0.99805

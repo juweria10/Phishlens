@@ -1,0 +1,93 @@
+{
+  "selected_model": "Random Forest",
+  "selection_rule": "highest mean 5-fold CV F1 (phishing) on the training split",
+  "hyperparameters": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "n_estimators": 100,
+    "cv_f1_phishing": 1.0
+  },
+  "feature_columns": [
+    "URLLength",
+    "DomainLength",
+    "IsDomainIP",
+    "URLSimilarityIndex",
+    "CharContinuationRate",
+    "TLDLegitimateProb",
+    "URLCharProb",
+    "TLDLength",
+    "NoOfSubDomain",
+    "HasObfuscation",
+    "NoOfObfuscatedChar",
+    "ObfuscationRatio",
+    "NoOfLettersInURL",
+    "LetterRatioInURL",
+    "NoOfDegitsInURL",
+    "DegitRatioInURL",
+    "NoOfEqualsInURL",
+    "NoOfQMarkInURL",
+    "NoOfAmpersandInURL",
+    "NoOfOtherSpecialCharsInURL",
+    "SpacialCharRatioInURL",
+    "IsHTTPS",
+    "LineOfCode",
+    "LargestLineLength",
+    "HasTitle",
+    "DomainTitleMatchScore",
+    "URLTitleMatchScore",
+    "HasFavicon",
+    "Robots",
+    "IsResponsive",
+    "NoOfURLRedirect",
+    "NoOfSelfRedirect",
+    "HasDescription",
+    "NoOfPopup",
+    "NoOfiFrame",
+    "HasExternalFormSubmit",
+    "HasSocialNet",
+    "HasSubmitButton",
+    "HasHiddenFields",
+    "HasPasswordField",
+    "Bank",
+    "Pay",
+    "Crypto",
+    "HasCopyrightInfo",
+    "NoOfImage",
+    "NoOfCSS",
+    "NoOfJS",
+    "NoOfSelfRef",
+    "NoOfEmptyRef",
+    "NoOfExternalRef"
+  ],
+  "label_mapping": {
+    "0": "Phishing",
+    "1": "Legitimate"
+  },
+  "class_order_in_model": [
+    0,
+    1
+  ],
+  "test_metrics": {
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1-score": 1.0,
+    "ROC-AUC": 1.0
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "data_summary": {
+    "rows_in_cleaned_file": 13068,
+    "rows_with_missing_url": 137,
+    "rows_after_url_dedup": 10008,
+    "n_features": 50,
+    "missing_cells_in_features": 3670,
+    "class_counts": {
+      "Phishing(0)": 3856,
+      "Legitimate(1)": 6152
+    },
+    "train_rows": 8006,
+    "test_rows": 2002
+  }
+}

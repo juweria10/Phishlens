@@ -1,0 +1,156 @@
+[
+ {
+  "time": "2026-11-07T04:31:20+00:00",
+  "url": "https://google.com/login",
+  "host": "google.com",
+  "verdict": "Phishing",
+  "p_phishing": 0.9999,
+  "risk": "Critical",
+  "flags": 1,
+  "reliability": "Low",
+  "source": "single"
+ },
+ {
+  "time": "2026-11-07T04:36:24+00:00",
+  "url": "https://accounts.google.com",
+  "host": "accounts.google.com",
+  "verdict": "Phishing",
+  "p_phishing": 0.9461,
+  "risk": "Critical",
+  "flags": 1,
+  "reliability": "Low",
+  "source": "single"
+ },
+ {
+  "time": "2026-11-07T04:37:32+00:00",
+  "url": "https://www.google.co.jp/index.html?zx=1794026239086",
+  "host": "www.google.co.jp",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 0,
+  "reliability": "Low",
+  "source": "single"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "https://google.com",
+  "host": "google.com",
+  "verdict": "Phishing",
+  "p_phishing": 0.6418,
+  "risk": "High",
+  "flags": 0,
+  "reliability": "Low",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "http://google.com",
+  "host": "google.com",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 1,
+  "reliability": "Low",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "https://google.com/login",
+  "host": "google.com",
+  "verdict": "Phishing",
+  "p_phishing": 0.9999,
+  "risk": "Critical",
+  "flags": 1,
+  "reliability": "Low",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "http://192.168.1.1/login",
+  "host": "192.168.1.1",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 3,
+  "reliability": "Normal",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "http://example.com@google.com",
+  "host": "google.com",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 2,
+  "reliability": "Low",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "http://secure-login.example.com",
+  "host": "secure-login.example.com",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 2,
+  "reliability": "Low",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "https://github.com/user/repository",
+  "host": "github.com",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 0,
+  "reliability": "Low",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:41:03+00:00",
+  "url": "http://verify-account.example.com/confirm?id=123",
+  "host": "verify-account.example.com",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 2,
+  "reliability": "Low",
+  "source": "batch"
+ },
+ {
+  "time": "2026-11-07T04:45:41+00:00",
+  "url": "https://www.123-lottery-winner.club",
+  "host": "www.123-lottery-winner.club",
+  "verdict": "Phishing",
+  "p_phishing": 0.8359,
+  "risk": "High",
+  "flags": 1,
+  "reliability": "Normal",
+  "source": "single"
+ },
+ {
+  "time": "2026-11-07T04:47:52+00:00",
+  "url": "https://paypal.com.account-security.top/login",
+  "host": "paypal.com.account-security.top",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 2,
+  "reliability": "Low",
+  "source": "single"
+ },
+ {
+  "time": "2026-11-07T04:48:32+00:00",
+  "url": "https://www.paypal.com/us/security/protect-your-account",
+  "host": "www.paypal.com",
+  "verdict": "Phishing",
+  "p_phishing": 1.0,
+  "risk": "Critical",
+  "flags": 1,
+  "reliability": "Low",
+  "source": "single"
+ }
+]

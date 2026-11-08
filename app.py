@@ -22,6 +22,8 @@ EXAMPLES = [
 ]
 MAX_BATCH = 200
 
+st.set_option("client.toolbarMode", "minimal")
+
 st.set_page_config(page_title="PhishLens", page_icon="🔍", layout="wide", initial_sidebar_state="expanded")
 st.markdown(f"<style>{CSS}</style>", unsafe_allow_html=True)
 

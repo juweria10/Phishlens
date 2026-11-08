@@ -29,8 +29,13 @@ st.markdown(f"<style>{CSS}</style>", unsafe_allow_html=True)
 
 st.markdown("""
 <style>
-a[href*="github.com"][href*="/fork"] {
-    display: none;
+[data-testid="stToolbar"] {
+    visibility: visible;
+}
+
+[data-testid="stToolbar"] button[aria-label*="Fork"],
+[data-testid="stToolbar"] a[aria-label*="Fork"] {
+    display: none !important;
 }
 </style>
 """, unsafe_allow_html=True)

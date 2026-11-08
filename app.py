@@ -22,23 +22,8 @@ EXAMPLES = [
 ]
 MAX_BATCH = 200
 
-st.set_option("client.toolbarMode", "minimal")
-
 st.set_page_config(page_title="PhishLens", page_icon="🔍", layout="wide", initial_sidebar_state="expanded")
 st.markdown(f"<style>{CSS}</style>", unsafe_allow_html=True)
-
-st.markdown("""
-<style>
-[data-testid="stToolbar"] {
-    visibility: visible;
-}
-
-[data-testid="stToolbar"] button[aria-label*="Fork"],
-[data-testid="stToolbar"] a[aria-label*="Fork"] {
-    display: none !important;
-}
-</style>
-""", unsafe_allow_html=True)
 
 @st.cache_resource(show_spinner="Loading model…")
 def get_engine() -> Engine:
